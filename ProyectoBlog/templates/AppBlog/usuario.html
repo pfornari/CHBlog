@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+
+{% block title %}
+    CRUD de Usuarios
+{% endblock %}
+
+{% block Inicio %}
+aqui ira el CRUD de Usuarios
+
+Nombre {{ usuario.nombre }}
+Usuario {{ usuario.usuario }}
+password {{ usuario.password }}
+email {{ usuario.email }}
+lastlogin {{ usuario.lastlogin }}
+dateregistro {{ usuario.dateregistro|date:"Y-m-d H:i:s" }}
+datecupleanho {{ usuario.datecupleanho|date:"Y-m-d H:i:s" }}
+estado {{ usuario.estado }}
+
+{% endblock %}
