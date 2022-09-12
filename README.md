@@ -28,7 +28,6 @@ venv\Scripts\activate
 <h6>Requerimientos: Django==4.1</h6>
 
 <h1>Funcionalidades de la Aplicación</h1>
-=============================================
 La aplicación inicia con un menú compuesto por diferentes opciones que son explicadas a continuación.
 
 <h2>Inicio</h2>
