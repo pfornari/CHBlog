@@ -6,32 +6,26 @@ El tipo de interacción permitirá lograr conectar información entre usuarios m
 
 El objetivo general de esta publicación es el desarrollo de un WebBlog utilizando el lenguaje de programación Python y el framework Django a través del uso de un patrón MVT.
 
-<h3>Autores</h3>
-<h3>Daniel Collao</h3>
-<h3>Javier Fornari</h3>
-------------------------------------------------------------------------
+<h6>Autores</h6>
+<h6>Daniel Collao</h6>
+<h6>Javier Fornari</h6>
+
 Para el uso de la base de datos el usuario es admin y la clave: XXXXX
-------------------------------------------------------------------------
 
 <h1>Uso de la Aplicación</h1>
 En primer lugar para asegurar que funcionará sin inconvenientes, se sugiere la creación
 de un entorno virtual, con el fin de mantener los mismos requerimientos donde se ha desarrollado la aplicación.
---------------------------------------------------------------
 Comandos a ejecutar para crear el entorno virtual
 Solo la primera vez:
---------------------------------------------------------------
 pip install virtualenv
 virtualenv --version
 virtualenv <nombre del entorno a crear>
---------------------------------------------------------------
---------------------------------------------------------------
+
 Cada vez que se quiera utilizar la Aplicación:
---------------------------------------------------------------
 env\Scripts\activate <env>
 venv\Scripts\activate
---------------------------------------------------------------
-Requerimientos: Django==4.1
---------------------------------------------------------------
+
+<h6>Requerimientos: Django==4.1</h6>
 
 <h1>Funcionalidades de la Aplicación</h1>
 =============================================
@@ -56,4 +50,4 @@ Campos solicitados: tag y relacion
 <h2>Búsqueda</h2>
 En el apartado de búsqueda se puede proceder a realizar la búsqueda de un usuario en particular. Este proceso se realiza con los usuarios que ya están dados de alta en el sistema de WebBlog analizando la información que contiene la base de datos.
 
-<h3>Por el momento los formularios para la generación de posteos y los correspondientes comentarios no han sido implementados ya que serán incorporados en próximas versiones</h3>
+<h6>Por el momento los formularios para la generación de posteos y los correspondientes comentarios no han sido implementados ya que serán incorporados en próximas versiones</h6>
